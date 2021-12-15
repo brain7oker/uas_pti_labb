@@ -8,6 +8,7 @@ import { URL, PAGE_SIZE } from './constants/constants';
 import { itemsFetchData, changeCountry, changeCategory, changePage } from './actions';
 import Main from './components/Main';
 import './App.css';
+import Navbar from '../components/Navbar'; // Memanggil Component Navbar
 
 class App extends Component {
 
@@ -50,6 +51,9 @@ class App extends Component {
               value={this.props.country} options={ countries }
               onChange = {(ev, {value} ) => this.props.changeCountry(value) }
             />
+            <Menu.Item as='a' href="aboutus.js" header className="item">
+              About Us
+            </Menu.Item>
           </Container>
         </Menu>
         <div style={{display:'flex',justifyContent:'center',alignItems:'center'}}>
