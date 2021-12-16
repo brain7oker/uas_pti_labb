@@ -11,6 +11,7 @@ import SportsNewsComponent from "./components/Sports";
 import SportsNewsLatestComponent from "./components/SportsLatest";
 import BusinessNews from "./components/business";
 import GoogleLoginComponent from "./components/googleLogin";
+import About from "./components/aboutus";
 import GoogleAuth from "./components/googleauth";
 import ViewBookmark from "./components/viewbookmark";
 import Economy from "./components/economy";
@@ -248,6 +249,9 @@ export default function App() {
                       </Route>
                       <Route exact path="/market">
                         <Market />
+                      </Route>
+                      <Route exact path="/aboutus">
+                        <About />
                       </Route>
                       <Route exact path="/search">
                         <SearchNews />
