@@ -10,6 +10,7 @@ import { changePage } from '../actions';
 class Main extends Component {
 
 	render() {
+		
 		const { data,status } = this.props;
 		if(status==="loading")
 			return (
