@@ -50,7 +50,7 @@ export const Page1component = () => {
                         <img src={localStorage.getItem('avatar')} className={styles.image_avatar} lazy />
                     </div>
                     <div className={theme === 'light' ? styles.title_light : styles.title_dark}>
-                        <h6>Abipravi</h6>
+                        <h6>CCFH</h6>
                     </div>
                     {
                         theme === 'light' ? <div onClick={changeTheme} className={styles.themeIcon}>

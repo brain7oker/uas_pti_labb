@@ -38,7 +38,7 @@ export default function GoogleAuth() {
                         margin: 10
                     }}>You Have Not Logged In please login with your google account here</h4>
                     <GoogleLogin clientId="692593559541-2rgin6kcfke1et55od12epm3tth3dp7a.apps.googleusercontent.com" render={renderProps => (
-                            <button className="btn btn-danger"onClick={renderProps.onClick} disabled={renderProps.disabled}>Login With Google for ABIPRAVI_NEWS</button>
+                            <button className="btn btn-danger"onClick={renderProps.onClick} disabled={renderProps.disabled}>Login With Google for CCFH_NEWS</button>
                             )}
                         onSuccess={responseGoogle}
                         onFailure={responseGoogle}/>

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "type": "module",
   "private": true,
-  "author": "Abipravi",
+  "author": "CCFH",
   "homepage": "./",
   "dependencies": {
     "@emotion/react": "^11.4.1",
